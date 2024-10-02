@@ -1,3 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Blog'
+theme = 'ink-free'
+[params]
+  maxTags = 7
+  wpm = 250
