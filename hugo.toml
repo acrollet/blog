@@ -1,13 +1,58 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://adrian.rollett.org/'
 languageCode = 'en-us'
-title = 'Blog'
+title = 'Adrian Rollett'
 theme = 'ink-free'
+
+[permalinks]
+  posts = "/:year/:month/:title"
+
 [params]
+  subtitle = "Words about things I'm interested in every sometimes"
+  # Site color - dark/light/auto
+  mode = "auto"
   maxTags = 7
   wpm = 250
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags & Stats"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/acrollet/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/acrollet/"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
+
 [markup]
   defaultMarkdownHandler = 'goldmark'
   [goldmark]
     [Extensions]
       footnote = true
-
