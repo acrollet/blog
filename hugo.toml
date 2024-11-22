@@ -5,3 +5,9 @@ theme = 'ink-free'
 [params]
   maxTags = 7
   wpm = 250
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [goldmark]
+    [Extensions]
+      footnote = true
+
