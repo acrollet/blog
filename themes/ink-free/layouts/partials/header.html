@@ -42,5 +42,7 @@
 		{{- range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{- end }}
 	{{- end }}
 
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="3b708370-7bbb-4ba8-8c27-c1bd24bcb597"></script>
+        {{ if not hugo.IsServer }}
+            <script defer src="https://cloud.umami.is/script.js" data-website-id="3b708370-7bbb-4ba8-8c27-c1bd24bcb597"></script>
+	{{- end }}
 </head>
