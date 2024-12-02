@@ -12,7 +12,7 @@ I started distance running about seven and a half years ago, and have only reall
 * increased fitness
 * seeing beautiful places like the Zion backcountry, Maroon Bells, and many others that would otherwise take multi-day backpacking trips
 
-![An image of two distance runners in Zion National Park's Hop Valley](hop-valley.jpg "Traveling west through Zion's Hop Valley (own work)")
+![An image of two distance runners in Zion National Park's Hop Valley](feature-hop-valley.jpg "Traveling west through Zion's Hop Valley (own work)")
 
 However, I rarely enjoyed the physical act of running itself. Through a combination of ignorance and attempting to keep up with fitter friends, I always pushed close to my maximum sustainable effort. (Ironically over longer periods rather than sprints, which might actually have helped) This turns out to be the worst of all possible worlds, causing fatigue without efficiently triggering adaptation.
 
