@@ -33,6 +33,11 @@ name = "Tags & Stats"
 url = "/tags"
 weight = 4
 
+[[menu.main]]
+name = "ZoneFlow"
+url = "/ZoneFlow"
+weight = 5
+
 [[params.social]]
 name = "Github"
 icon = "github"
