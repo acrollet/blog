@@ -6,6 +6,10 @@ type = 'page'
 
 ## Getting Started
 
+### About
+
+ZoneFlow is a simple run tracking app for WatchOS focused on helping maintain a given heartrate zone without having to continuously check the display. It taps your wrist with single taps when below the target zone, and double taps when above. It is available on the app store [here](https://apps.apple.com/us/app/zoneflow/id6739025069).
+
 ### Compatibility
 
 - Requires watchOS 10.5 or later
