@@ -25,9 +25,10 @@ I've been using the app for most of my runs since then. After a few sessions of 
 
 ## Learnings
 
-- Using LLMs took away almost all of the pain of dealing with a new language & framework
-- Using Claude to generate initial versions of the promotional text & [help page]({{< ref "/ZoneFlow" >}}) etc. was a huge time saver and might have made the difference between bothering to publish the app or not
-- If you clearly express the problem you're trying to solve, advanced models may be able to provide an entire solution without advanced [prompt engineering techniques](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- LLMs took away almost all of the pain of dealing with a new language & framework.
+- About 10-15% of the time I've spent on the project has been on direct fixes and improvements. The rest has been mediated through LLMs in one way or another.
+- Using Claude to generate initial versions of the promotional text & [help page]({{< ref "/ZoneFlow" >}}) etc. was a huge time saver and might have made the difference between bothering to publish the app or not.
+- If you clearly express the problem you're trying to solve, advanced models may be able to provide an entire solution without advanced [prompt engineering techniques](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview).
 
 
 [^1]: `o1-preview`
