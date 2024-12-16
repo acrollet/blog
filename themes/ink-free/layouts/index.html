@@ -27,11 +27,14 @@
 							</h4>
 							{{ $wordCountNoCode := replaceRE `(?s)<div class="highlight">.*?</div>` "" .Content |
 							countwords }}
+
+							{{- if (eq .Site.Params.showReadingTime "yes" ) -}}
 							<h4 class="title small smaller">
 								{{ $wordCountNoCode | lang.FormatNumberCustom 0 }} words, ~{{ div $wordCountNoCode
 								.Site.Params.wpm
 								}} min read
 							</h4>
+							{{ end }}
 							<h4 class="title small smaller">
 								{{ if gt .Params.tags 0 }}
 								<ul class="tags flat">

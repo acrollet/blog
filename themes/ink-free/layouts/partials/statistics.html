@@ -12,6 +12,7 @@ countwords }}
     {{ .Date.Month }} {{ .Date.Year }}.
     {{ end }}
 </p>
+{{- if (eq .Site.Params.showReadingTime "yes" ) -}}
 {{ $readingMins := div ($scratch.Get "wordcount") .Site.Params.wpm }}
 <p>Reading all that should take you about {{ $readingMins }} minutes
     {{ if gt $readingMins 60 }}
@@ -20,6 +21,7 @@ countwords }}
     .
     {{end}}
 </p>
+{{ end }}
 <p>
     For reference, that's about {{div ($scratch.Get "wordcount") (.Site.Params.referenceBookWords | default
     95356.0 ) |
