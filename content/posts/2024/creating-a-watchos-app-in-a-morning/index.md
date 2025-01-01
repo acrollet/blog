@@ -5,7 +5,7 @@ tags = ["productivity", "AI", "chatgpt", "claude"]
 description = "Coding with LLMs for fun and no profit."
 +++
 
-Ever since I started [running more slowly]({{< ref "/posts/on-enjoying-running" >}}), I've wanted a very specific running app. This app would be very minimal, letting me focus on the act of running rather than staring at a display to maintain a certain heartrate zone. It's possible that something like this exists, but I couldn't find it. I noodled on the idea of building that app, but it felt like it would take more effort than I wanted to expend. (This was based on bitter experience with abortive past side projects)
+Ever since I started [running more slowly]({{< ref "/posts/2024/on-enjoying-running" >}}), I've wanted a very specific running app. This app would be very minimal, letting me focus on the act of running rather than staring at a display to maintain a certain heartrate zone. It's possible that something like this exists, but I couldn't find it. I noodled on the idea of building that app, but it felt like it would take more effort than I wanted to expend. (This was based on bitter experience with abortive past side projects)
 
 So, I decided to timebox the project. On a day off in October, I decided to see if I could start coding that morning and use the app on a run that afternoon. The basic structure was designed by ChatGPT[^1], starting from this prompt:
 

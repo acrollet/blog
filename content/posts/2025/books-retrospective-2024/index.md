@@ -16,6 +16,10 @@ A fascinating read about an underappreciated species. Well worth it and might ju
 
 Highly recommended - both practical and interesting, giving loads of insight into Chinese cuisine, which is richly varied. (Lumping it all together is somewhat like saying "European Food"!)
 
+### [Training for the Uphill Athlete](https://share.libbyapp.com/title/5371188) by Kílian Jornet Burgada, Scott Johnston, and Steve House
+
+See [On enjoying running]({{< ref "/posts/2024/on-enjoying-running" >}}) for more.
+
 ### [How Life Works](https://share.libbyapp.com/title/10172672) by Philip Ball
 
 Our understanding of how biological systems work is constantly evolving, (rimshot!) and I found this to be an in depth but still accessible overview.
