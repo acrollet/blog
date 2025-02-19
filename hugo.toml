@@ -44,9 +44,9 @@ icon = "github"
 url = "https://github.com/acrollet/"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/acrollet/"
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/adrian-rollett-b0403253/"
 
 [[params.social]]
 name = "RSS"
